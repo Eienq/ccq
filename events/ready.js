@@ -7,7 +7,7 @@ var prefix = rabel.prefix;
 module.exports = async client => {
 
     client.user.setActivity(``, { type: "PLAYING" });
-  client.user.setStatus("online");
+  client.user.setStatus("dnd");
   console.log("Aktif!")
 };
 

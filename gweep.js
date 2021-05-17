@@ -9,9 +9,9 @@ const log = message => {
 };
 //gweep creative
 client.ayarlar = { 
-"token": "NzQ1MjczNjQ4ODA1NDQ1Njcz.XzvYLA.A4BqBrymCjeUJlp9uiLuOA2Heak", // token
-"prefix": "-", // prefix
-"sahip": "586822327568695317",// sahip
+"token": "", // token
+"prefix": "e!", // prefix
+"sahip": "637913217640824832",// sahip
 }
 //gweep creative
 client.commands = new Discord.Collection();
@@ -94,7 +94,7 @@ client.elevation = message => {
 
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g
 
-client.login(client.ayarlar.token);
+client.login(process.env.token);
 const moment = require('moment');
 moment.locale('tr');//gweep creative
 const { S_IFREG } = require("constants");
